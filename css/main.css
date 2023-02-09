@@ -1571,9 +1571,11 @@ ul.nav > li > a.active{
 .privacy-content .privacy-info ol.a{
     
     list-style-type: lower-alpha;
-    
-    
 }
+
+/* .privacy-content .privacy-info ol li.b{
+    font-weight : bold;
+} */
 
 .privacy-content .privacy-info h3{
     font-size: 26px;
