@@ -1557,7 +1557,7 @@ ul.nav > li > a.active{
     max-width: 100%;
 }
 .privacy-content .privacy-info{
-    font-size: 18px;
+    /* font-size: 18px; */
     padding-left: 50px;
     text-align: left;
     color: #0E151C;
