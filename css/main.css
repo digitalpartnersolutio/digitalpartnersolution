@@ -473,7 +473,7 @@ a,a:hover, .overlay, img, .form-control,  .form-control:hover, button{
     letter-spacing: 0.5px;
     padding: 0 30px;
      position: relative;
-    top: 10px;
+    top: 2px;
     right: 0;
     cursor: pointer;
 }
