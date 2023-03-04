@@ -1592,6 +1592,12 @@ ul.nav > li > a.active{
 }
 
 
+.privacy-content .privacy-info h4{
+    font-size: 21px;
+    line-height: -10px;
+    letter-spacing: 0 px;
+}
+
 
 /* ==========================================================================
    404 Error Section
@@ -1645,7 +1651,7 @@ ul.nav > li > a.active{
     line-height: 28px;
 }
 .contact-info h4{
-    font-size: 15px;
+    font-size: 21px;
     line-height: 28px;
 }
 .contact-info span{

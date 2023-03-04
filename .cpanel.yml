@@ -1,2 +1,16 @@
 ---
-deployment
+deployment:
+  tasks:
+    - export DEPLOYPATH=/home/n1571193/public_html/topsserver.com
+    - /bin/cp index.html $DEPLOYPATH
+    - /bin/cp privacy.html $DEPLOYPATH
+    - /bin/cp about-company.html.html $DEPLOYPATH
+    - /bin/cp about-us.html $DEPLOYPATH
+    - /bin/cp contact.html $DEPLOYPATH
+    - /bin/cp project-single.html $DEPLOYPATH
+    - /bin/cp projects.html $DEPLOYPATH
+    - /bin/cp service-1.html $DEPLOYPATH
+    - /bin/cp -R css $DEPLOYPATH
+    - /bin/cp -R fonts $DEPLOYPATH
+    - /bin/cp -R img $DEPLOYPATH
+    - /bin/cp -R js $DEPLOYPATH
