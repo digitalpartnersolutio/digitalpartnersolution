@@ -1,7 +1,7 @@
 ---
 deployment:
   tasks:
-    - export DEPLOYPATH=/home/n1571193/public_html/topsserver.com
+    - export DEPLOYPATH=/home/n1571193/public_html/digitalpartnersolution.com
     - /bin/cp index.html $DEPLOYPATH
     - /bin/cp privacy.html $DEPLOYPATH
     - /bin/cp about-company.html.html $DEPLOYPATH

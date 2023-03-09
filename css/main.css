@@ -424,15 +424,24 @@ a,a:hover, .overlay, img, .form-control,  .form-control:hover, button{
     transition: all 0.3s ease-in-out;
 }
 .navbar{
-    border: medium none;
-    -moz-border-radius: 0;
-    -webkit-border-radius: 0;
-    -ms-border-radius: 0;
-    border-radius: 0;
-    margin: 0;
-    position: relative;
-    padding: 0;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  height: 80px;
+  background-color: #fff;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 999;
+
 }
+.navbar-brand img {
+  height: 50px;
+}
+
+
 .navbar-header {
     padding: 17px 0;
 }
@@ -673,7 +682,7 @@ ul.nav > li > a.active{
     margin-top: 40px;
 }
 .about-bg{
-    background-image: url(../img/about.jpg);
+    background-image: url(../img/Slider/Bgslide.png);
     background-position: top right;
     background-repeat: no-repeat;
     width: 100%;
@@ -838,7 +847,7 @@ ul.nav > li > a.active{
 
 /* About Style 4*/
 .about-section .about-slider-wrap{
-    background-image: url(../img/about-slider-bg.jpg);
+    background-image: url(../img/Slider/Bgslide.png);
     background-repeat: no-repeat;
     background-position: left top;
     background-size: 80%;
@@ -972,12 +981,20 @@ ul.nav > li > a.active{
 ====================*/
 .service-box{
     display: flex;
-    align-items: center;
+    align-items: flex-start;
 }
-.service-box i{}
-.service-box i:before{
+.service-box img{
+display: block;
+background-color: #008BCC;
+padding: 0;
+color: #fff;
+border-radius: 2px;
+width: 100px; /* sesuaikan ukuran gambar /
+height: 50px; / sesuaikan ukuran gambar */
+}
+.service-box img:before{
     background-color: #008BCC;
-    padding: 15px;
+    padding: 0;
     color: #fff;
     border-radius: 2px;
 }
@@ -1425,7 +1442,7 @@ ul.nav > li > a.active{
    Hero Section
    ========================================================================== */
 .hero-section{
-    background-image: url(../img/home-classic-background.jpg);
+    background-image: url(../img/Banner/Banner-pulsa.png);
     background-repeat: no-repeat;
     background-position: center center;
     background-size: cover;
